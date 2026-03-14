@@ -339,7 +339,7 @@ svg.donut{transform:rotate(-90deg)}
 const vals=[180,220,195,280,310,260,340,290,380,420,360,438];
 const max=Math.max(...vals);
 const c=['rgba(255,255,255,.3)','rgba(255,255,255,.4)','rgba(255,255,255,.35)','rgba(240,147,251,.5)','rgba(240,147,251,.6)','rgba(240,147,251,.5)','rgba(245,87,108,.6)','rgba(245,87,108,.5)','rgba(245,87,108,.7)','rgba(255,255,255,.6)','rgba(255,255,255,.7)','#fff'];
-document.getElementById('bars').innerHTML=vals.map((v,i)=>`<div class="spark-bar" style="height:${v/max*100}%;background:${c[i]}" title="${v}"></div>`).join('');
+document.getElementById('bars').innerHTML=vals.map((v,i)=>'<div class="spark-bar" style="height:'+(v/max*100)+'%;background:'+c[i]+'" title="'+v+'"></div>').join('');
 </script></body></html>`,
   },
   {
