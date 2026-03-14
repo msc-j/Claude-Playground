@@ -5,7 +5,7 @@ An interactive Next.js showcase with **3 live demos** of Claude's capabilities.
 
 1. **Instant UI Builder** — Describe a UI, see it rendered live (6 pre-built demos)
 2. **Design Chameleon** — One product card in 6 wildly different visual styles
-3. **Code Roaster 🔥** — Savage-but-helpful code review with real fixes
+3. **Code Roaster 🔥** — Savage-but-helpful code review with real fixes 
 
 ---
 
